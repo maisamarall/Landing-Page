@@ -1,0 +1,142 @@
+:root {
+    --color-primary-1: #f4f1e9;
+    --color-primary-2: #ff0099;
+    --color-primary-3: #ff92db;
+    --color-primary-4: #f348b2;
+    --color-primary-5: #ff4ccc;
+    --color-primary-6: #af0b75;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-primary-1);
+}
+
+section {
+    padding: 28px 8%;
+}
+
+#banner {
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories img {
+    width: 12%;
+    height: auto;
+}
+
+.categories p {
+    text-align: center;
+    color: var(--color-neutral-1);
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid var(--color-primary-3);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: rgb(252, 180, 192);
+  }
+
+h2{
+    text-align: center;
+    font-size:large;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li a img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 60px;
+  }
+  
+  .meio {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9d6d6; /* Cor de fundo da imagem */
+    color: var(--color-neutral-1); /* Cor do texto */
+    padding: 20px;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .item i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .novidades {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: var(--color-primary-3);
+    color: var(--color-neutral-1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  
